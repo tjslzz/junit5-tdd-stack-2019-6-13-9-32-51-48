@@ -50,4 +50,11 @@ public class NumberGameTest {
     public void should_return_Fizz_when_call_number_given_13(){
         assertEquals("Fizz",NumberGame.number(13));
     }
+
+    @Test
+    public void should_return_infos_when_call_number_given_List(){
+        for(int i = 0 ; i <= 120;i ++){
+            System.out.println(NumberGame.number(i));
+        }
+    }
 }
