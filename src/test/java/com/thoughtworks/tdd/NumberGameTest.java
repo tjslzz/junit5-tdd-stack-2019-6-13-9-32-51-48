@@ -12,7 +12,12 @@ public class NumberGameTest {
     }
 
     @Test
-    public void should_return_Fizz_when_call_number_given_MultipleOfThree_SuchAs_3(){
+    public void should_return_Fizz_when_call_number_given_MultipleOfThree_SuchAs_6(){
         assertEquals("Fizz",NumberGame.number(6));
+    }
+
+    @Test
+    public void should_return_Buzz_when_call_number_given_MultipleOfFive_SuchAs_10(){
+        assertEquals("Buzz",NumberGame.number(10));
     }
 }
