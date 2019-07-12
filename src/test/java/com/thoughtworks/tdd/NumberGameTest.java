@@ -32,7 +32,12 @@ public class NumberGameTest {
     }
 
     @Test
-    public void should_return_FizzWhizz_when_call_number_given_MultipleOfThreeAndSeven_SuchAs_15(){
+    public void should_return_FizzWhizz_when_call_number_given_MultipleOfThreeAndSeven_SuchAs_21(){
         assertEquals("FizzWhizz",NumberGame.number(21));
+    }
+
+    @Test
+    public void should_return_BuzzWhizz_when_call_number_given_MultipleOfFiveAndSeven_SuchAs_35(){
+        assertEquals("BuzzWhizz",NumberGame.number(35));
     }
 }
