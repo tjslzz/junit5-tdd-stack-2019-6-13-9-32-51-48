@@ -20,4 +20,9 @@ public class NumberGameTest {
     public void should_return_Buzz_when_call_number_given_MultipleOfFive_SuchAs_10(){
         assertEquals("Buzz",NumberGame.number(10));
     }
+
+    @Test
+    public void should_return_Whizz_when_call_number_given_MultipleOfSeven_SuchAs_14(){
+        assertEquals("Whizz",NumberGame.number(14));
+    }
 }
