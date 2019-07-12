@@ -45,4 +45,9 @@ public class NumberGameTest {
     public void should_return_FizzBuzzWhizz_when_call_number_given_MultipleOfThreeAndFiveAndSeven_SuchAs_105(){
         assertEquals("FizzBuzzWhizz",NumberGame.number(105));
     }
+
+    @Test
+    public void should_return_Fizz_when_call_number_given_13(){
+        assertEquals("Fizz",NumberGame.number(13));
+    }
 }
