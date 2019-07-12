@@ -30,4 +30,9 @@ public class NumberGameTest {
     public void should_return_FizzBuzz_when_call_number_given_MultipleOfThreeAndFive_SuchAs_15(){
         assertEquals("FizzBuzz",NumberGame.number(15));
     }
+
+    @Test
+    public void should_return_FizzWhizz_when_call_number_given_MultipleOfThreeAndSeven_SuchAs_15(){
+        assertEquals("FizzWhizz",NumberGame.number(21));
+    }
 }
